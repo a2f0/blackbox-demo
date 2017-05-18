@@ -58,7 +58,7 @@ Registering the new file will:
 
 # Using Blackbox
 
-# Decrypting Files
+## Decrypting Files
 
 Decrypting a file encrypted by Blackbox will likely be desired as some point.  If the above process was followed, the original should be added to `.gitignore`, so inadvertently adding it via a `git add` operation should no longer be a concern.  Decrypting Blackbox files can be achieved with:
 
