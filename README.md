@@ -55,3 +55,10 @@ Registering the new file will:
 1. Rename the file to `secret_data.txt.gpg`
 2. Add the de-crypted file's name to `.gitignore` to ensure it won't get check in unencrypted.
 3. Create a new commit visibile in `git log`
+
+# Using Blackbox
+
+Decrypting a file encrypted by Blackbox will likely be desired as some point.  If the above process was followed, the original should be added to `.gitignore`, so inadvertently adding it via a `git add` operation should no longer be a concern.  Decrypting Blackbox files can be achieved with:
+
+    blackbox_decrypt_all_files
+
